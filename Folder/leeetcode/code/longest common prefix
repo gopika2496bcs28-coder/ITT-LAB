@@ -1,0 +1,10 @@
+strs = ["flower", "flow", "flight"]
+result=""
+strs.sort()
+first = strs[0]
+last = strs[-1]
+for i in range(len(first)):
+   if i >= len(last) or first[i] != last[i]:
+      break
+   result += first[i]
+   print(f"Longest Common Prefix: '{result}'")
