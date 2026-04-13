@@ -1,0 +1,6 @@
+colours=['red','blue','green']
+red=0
+blue=1
+green=2
+colours.sort(1,2)
+print("Colours:",colours)
