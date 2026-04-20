@@ -1,0 +1,8 @@
+n=int(input("Enter a number:"))
+if 1<=n<=1000000000:
+   sum=0
+   while n>0:
+      rem=n%10
+      sum+=rem
+      n=n//10
+   print("Sum of digits:",sum)
