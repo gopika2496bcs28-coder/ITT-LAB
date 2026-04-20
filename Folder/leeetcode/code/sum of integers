@@ -1,0 +1,4 @@
+n=int(input("Enter the no of integers to sum:"))
+s=0
+
+print("Sum:",sum(range(1,n+1))) if 1<=n<=100000 else print("Invalid input")
