@@ -1,0 +1,3 @@
+d,a=input("Enter amount to deposit and withdraw:").split()
+d,a=float(d),float(a)
+print(a,"amount withdrawn\nBalance:",d-a) if d>a and a%100==0 else print(a,"amount cant be withdrawn")
