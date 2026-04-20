@@ -1,0 +1,7 @@
+n = int(input("Enter the num :"));
+if(n>0):
+   print("The num is positive ");
+elif(n<0):
+   print("The num is negative ");
+else:
+   print("The numia equal to zero");
