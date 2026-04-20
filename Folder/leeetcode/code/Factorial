@@ -1,0 +1,7 @@
+n=int(input("Enter number to find factorial:"))
+f,i=1,1
+if 1<=n<=12:
+	while i<=n:
+   		f*=i
+   		i+=1
+	print("Factorial of",n,":",f)
