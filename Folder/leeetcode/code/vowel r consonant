@@ -1,0 +1,3 @@
+ch = str(input("Enter the ch :"));
+answer = "This chracter is vowel " if (ch in "aeiou" ) else "The character is a consonent ";
+print(answer);
