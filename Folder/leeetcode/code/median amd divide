@@ -1,0 +1,7 @@
+a=[1,2,4]
+b=[3]
+a.append(b)
+print("median:",a)
+d=a+b
+c=d/4
+print("div:",c)
